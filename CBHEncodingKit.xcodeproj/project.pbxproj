@@ -37,6 +37,8 @@
 		839C0CF2222DB6BC0074D919 /* NSData+CBHEncodingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CBHEncodingKit.h"; sourceTree = "<group>"; };
 		839C0CF3222DB6BC0074D919 /* NSData+CBHEncodingKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CBHEncodingKit.m"; sourceTree = "<group>"; };
 		839C0CF6222DE8920074D919 /* CBHEncodingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBHEncodingKitTests.m; sourceTree = "<group>"; };
+		83AB994B22355BC400F0310C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		83AB994C22355BC400F0310C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,8 @@
 		839C0CCA222DB5BB0074D919 = {
 			isa = PBXGroup;
 			children = (
+				83AB994C22355BC400F0310C /* README.md */,
+				83AB994B22355BC400F0310C /* LICENSE */,
 				839C0CD6222DB5BB0074D919 /* CBHEncodingKit */,
 				839C0CE1222DB5BB0074D919 /* CBHEncodingKitTests */,
 				839C0CD5222DB5BB0074D919 /* Products */,
