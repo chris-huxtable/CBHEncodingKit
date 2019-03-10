@@ -18,8 +18,10 @@
 //  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 //
 
-@import CoreFoundation;
-@import Security;
+@import CoreFoundation.CFData;
+
+@import Security.SecEncodeTransform;
+@import Security.SecDecodeTransform;
 
 
 #import "NSData+CBHEncodingKit.h"

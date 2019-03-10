@@ -18,11 +18,12 @@
 //  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 //
 
-@import Foundation.NSData;
-@import Foundation.NSString;
+@import Foundation.NSObjCRuntime;
+
 
 FOUNDATION_EXPORT double CBHEncodingKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CBHEncodingKitVersionString[];
+
 
 #import <CBHEncodingKit/NSData+CBHEncodingKit.h>
 #import <CBHEncodingKit/NSString+CBHEncodingKit.h>
