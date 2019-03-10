@@ -574,4 +574,24 @@
 	}
 }
 
+
+- (void)testEncodeFailure
+{
+	NSString *message = @"any carnal pleasure.";
+	NSData *data = [message dataUsingEncoding:NSUTF8StringEncoding];
+	NSData *encoded = [data encodeUsingTransform:(CFStringRef)@"Not a transform"];
+
+	XCTAssertNil(encoded, @"Encoded message should be nil.");
+}
+
+
+- (void)testDecodeFailure
+{
+	NSString *message = @"any carnal pleasure.";
+	NSData *data = [message dataUsingEncoding:NSUTF8StringEncoding];
+	NSData *encoded = [data decodeUsingTransform:(CFStringRef)@"Not a transform"];
+
+	XCTAssertNil(encoded, @"Encoded message should be nil.");
+}
+
 @end
