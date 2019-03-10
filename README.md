@@ -1,5 +1,9 @@
 # CBHEncodingKit
 
+[![release](https://img.shields.io/badge/release-1.0-blue.svg?cacheSeconds=2592000)](https://github.com/chris-huxtable/CBHEncodingKit/releases)
+[![licence](https://img.shields.io/badge/licence-ISC-lightgrey.svg?cacheSeconds=2592000)](https://github.com/chris-huxtable/CBHEncodingKit/blob/master/LICENSE)
+[![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg?cacheSeconds=2592000)](https://github.com/chris-huxtable/CBHEncodingKit)
+
 An easy to use category for `NSData` and `NSString` to encode data.
 
 Supports:
