@@ -23,6 +23,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+/** Adds encoding methods to `NSData`.
+ *
+ * @author              Chris Huxtable <chris@huxtable.ca>
+ * @version             1.0
+ */
 @interface NSData (CBHEncodingKit)
 
 
@@ -34,16 +40,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Creates a Base32 encoded string representation of the receiver.
  *
- * @return		A Base32 encoded string representation of the receiver or nil if there is an error.
- * @since		Available in version 1.0 and later.
+ * @return              A Base32 encoded string representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)encodeBase32;
 
 
 /** Decodes a Base32 encoded data.
  *
- * @return		The Base632 decoded representation of the receiver or nil if there is an error.
- * @since		Available in version 1.0 and later.
+ * @return              The Base632 decoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSData *)decodeBase32;
 
@@ -56,16 +60,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Creates a Base64 encoded string representation of the receiver.
  *
- * @return		A Base64 encoded string representation of the receiver or nil if there is an error.
- * @since		Available in version 1.0 and later.
+ * @return              A Base64 encoded string representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)encodeBase64;
 
 
 /** Decodes a Base64 encoded data.
  *
- * @return		The Base64 decoded representation of the receiver or nil if there is an error.
- * @since		Available in version 1.0 and later.
+ * @return              The Base64 decoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSData *)decodeBase64;
 
@@ -78,17 +80,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Encodes data using the Security provided transform type.
  *
- * @param transformType		The Security provided transform type to use.
- * @return					A encoded representation of the receiver or nil if there is an error.
- * @since					Available in version 1.0 and later.
+ * @param transformType The Security provided transform type to use.
+ *
+ * @return              A encoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSData *)encodeUsingTransform:(CFTypeRef)transformType;
 
 /** Decodes data using the Security provided transform type.
  *
- * @param transformType		The Security provided transform type to use.
- * @return					A decoded representation of the receiver or nil if there is an error.
- * @since					Available in version 1.0 and later.
+ * @param transformType The Security provided transform type to use.
+ *
+ * @return              A decoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSData *)decodeUsingTransform:(CFTypeRef)transformType;
 

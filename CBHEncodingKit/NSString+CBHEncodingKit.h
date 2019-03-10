@@ -23,6 +23,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+/** Adds encoding methods to `NSString`.
+ *
+ * @author              Chris Huxtable <chris@huxtable.ca>
+ * @version             1.0
+ */
 @interface NSString (CBHEncodingKit)
 
 
@@ -34,38 +40,35 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Creates a Base32 encoded representation of the receiver serialized as a UTF-8 String.
 *
-* @return			The Base32 encoded string representing the receiver or nil if there is an error.
-* @since			Available in version 1.0 and later.
+* @return              The Base32 encoded string representing the receiver or nil if there is an error.
 */
 - (nullable NSString *)encodeBase32;
 
 /** Creates a Base32 encoded representation of the receiver.
  *
  * @param encoding	The string encoding to use to serialize the receiver.
- * @return			A Base632 encoded representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ *
+ * @return              A Base632 encoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)encodeBase32WithStringEncoding:(NSStringEncoding)encoding;
 
 /** Decodes a Base32 encoded string.
  *
- * @return			The Base32 decoded representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @return              The Base32 decoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSData *)decodeBase32;
 
 /** Decodes a Base32 encoded string as a UTF-8 encoded string.
  *
- * @return			The Base32 decoded String representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @return              The Base32 decoded String representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)stringByDecodingBase32String;
 
 /** Decodes a Base32 encoded string as a string.
  *
- * @param encoding	The string encoding to use to serialize the resultant string.
- * @return			The Base32 decoded String representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @param encoding      The string encoding to use to serialize the resultant string.
+ *
+ * @return              The Base32 decoded String representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)stringByDecodingBase32StringWithStringEncoding:(NSStringEncoding)encoding;
 
@@ -78,38 +81,35 @@ NS_ASSUME_NONNULL_BEGIN
 
 /** Creates a Base64 encoded representation of the receiver serialized as a UTF-8 String.
  *
- * @return			The Base64 encoded string representing the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @return              The Base64 encoded string representing the receiver or nil if there is an error.
  */
 - (nullable NSString *)encodeBase64;
 
 /** Creates a Base64 encoded representation of the receiver.
  *
- * @param encoding	The string encoding to use to serialize the receiver.
- * @return			A Base64 encoded representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @param encoding      The string encoding to use to serialize the receiver.
+ *
+ * @return              A Base64 encoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)encodeBase64WithStringEncoding:(NSStringEncoding)encoding;
 
 /** Decodes a Base64 encoded string.
  *
- * @return			The Base64 decoded representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @return              The Base64 decoded representation of the receiver or nil if there is an error.
  */
 - (nullable NSData *)decodeBase64;
 
 /** Decodes a Base64 encoded string as a UTF-8 encoded string.
  *
- * @return			The Base64 decoded String representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @return              The Base64 decoded String representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)stringByDecodingBase64String;
 
 /** Decodes a Base64 encoded string as a string.
  *
- * @param encoding	The string encoding to use to serialize the resultant string.
- * @return			The Base64 decoded String representation of the receiver or nil if there is an error.
- * @since			Available in version 1.0 and later.
+ * @param encoding      The string encoding to use to serialize the resultant string.
+ *
+ * @return              The Base64 decoded String representation of the receiver or nil if there is an error.
  */
 - (nullable NSString *)stringByDecodingBase64StringWithStringEncoding:(NSStringEncoding)encoding;
 
