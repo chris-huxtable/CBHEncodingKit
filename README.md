@@ -1,6 +1,6 @@
 # CBHEncodingKit
 
-[![release](https://img.shields.io/badge/release-1.0-blue.svg?cacheSeconds=2592000)](https://github.com/chris-huxtable/CBHEncodingKit/releases)
+[![release](https://img.shields.io/github/release/chris-huxtable/CBHEncodingKit.svg)](https://github.com/chris-huxtable/CBHEncodingKit/releases)
 [![pod](https://img.shields.io/cocoapods/v/CBHEncodingKit.svg)](https://cocoapods.org/pods/CBHEncodingKit)
 [![licence](https://img.shields.io/badge/licence-ISC-lightgrey.svg?cacheSeconds=2592000)](https://github.com/chris-huxtable/CBHEncodingKit/blob/master/LICENSE)
 [![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg?cacheSeconds=2592000)](https://github.com/chris-huxtable/CBHEncodingKit)
