@@ -14,6 +14,7 @@
 		839C0CF8222DF5FF0074D919 /* CBHEncodingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C0CD7222DB5BB0074D919 /* CBHEncodingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		839C0CF9222DF6060074D919 /* NSData+CBHEncodingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C0CF2222DB6BC0074D919 /* NSData+CBHEncodingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		839C0CFA222DF60A0074D919 /* NSString+CBHEncodingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C0CEE222DB6B10074D919 /* NSString+CBHEncodingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E09E822398E705003B95B9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 83AB994B22355BC400F0310C /* LICENSE */; };
 		83E09E842398E8DA003B95B9 /* Correctness.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 83E09E832398E8DA003B95B9 /* Correctness.xctestplan */; };
 /* End PBXBuildFile section */
 
@@ -199,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E09E822398E705003B95B9 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
