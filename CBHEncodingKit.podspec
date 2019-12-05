@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name                   = 'CBHEncodingKit'
-  spec.version                = '1.0.0'
+  spec.version                = '1.0.1'
   spec.module_name            = 'CBHEncodingKit'
 
   spec.summary                = 'CBHEncodingKit extends `NSData` and `NSString` with a category; adding methods for several encoding types.'
