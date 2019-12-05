@@ -1,6 +1,5 @@
-//
 //  CBHEncodingKitTests.m
-//  CBHEncodingKit
+//  CBHEncodingKitTests
 //
 //  Created by Christian Huxtable <chris@huxtable.ca>, March 2019.
 //  Copyright (c) 2019, Christian Huxtable <chris@huxtable.ca>
@@ -16,7 +15,6 @@
 //  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 //  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 //  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-//
 
 #import <XCTest/XCTest.h>
 
