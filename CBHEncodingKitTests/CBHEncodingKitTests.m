@@ -16,16 +16,15 @@
 //  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 //  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-#import <XCTest/XCTest.h>
+@import XCTest;
+@import CBHEncodingKit;
 
-#import "NSData+CBHEncodingKit.h"
-#import "NSString+CBHEncodingKit.h"
 
 @interface CBHEncodingKitTests : XCTestCase
 @end
 
-@implementation CBHEncodingKitTests
 
+@implementation CBHEncodingKitTests
 
 #pragma mark - Base32
 
